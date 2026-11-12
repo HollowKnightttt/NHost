@@ -18,7 +18,7 @@ public final class MainActivity extends AppCompatActivity {
     setContentView(R.layout.activity_main);
 
     MobileAds.initialize(this, initializationStatus -> {
-      Toast.makeText(this, "Mobile Ads initialized.", Toast.LENGTH_SHORT).show();
+      Toast.makeText(this, "Mobile Ads initialized", Toast.LENGTH_SHORT).show();
     });
 
     if (savedInstanceState == null) {
